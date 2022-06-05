@@ -93,7 +93,7 @@ def getTrackGenres(track, origGenre):
     if trackGenres == []:
         trackGenres = [origGenre]
 
-    return " ".join(list(set(trackGenres)))
+    return ",".join(list(set(trackGenres)))
 
 
 def getYear(date, precision):
@@ -119,8 +119,8 @@ for genre in genres:
         features = requests.get(
             baseURL + f'getTrackFeatures/{track["id"]}').json()
         fetchedTracks.append({
-            "artist": track["artist"],
-            "song": track["name"],
+            "artist": track["artist"].replace(",", " "),
+            "song": track["name"].replace(",", " "),
             "duration_ms": features["duration_ms"],
             "explicit": track["explicit"],
             "year": getYear(track["date"], track["precision_date"]),
