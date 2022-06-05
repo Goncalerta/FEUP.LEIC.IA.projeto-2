@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from datetime import datetime
 
-baseURL = "http://localhost:8081/"
+baseURL = "http://localhost:8005/"
 
 genres = [
     "acoustic",
@@ -100,6 +100,9 @@ def getYear(date, precision):
     if (precision == "day"):
         date_obj = datetime.strptime(date, '%Y-%m-%d')
         return str(date_obj.year)
+    if (precision == "month"):
+        date_obj = datetime.strptime(date, '%Y-%m')
+        return str(date_obj.year)
     if (precision == "year"):
         return date
     else:
@@ -109,7 +112,7 @@ def getYear(date, precision):
 
 fetchedTracks = []
 
-for genre in genres[0:1]:
+for genre in genres:
     tracks = requests.get(baseURL + f'getMusicsOfGenre/{genre}').json()
     for track in tracks:
         trackGenres = getTrackGenres(track, genre)
