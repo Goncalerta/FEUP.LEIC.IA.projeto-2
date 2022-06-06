@@ -1,0 +1,30 @@
+Best params for DecisionTreeClassifier: {'splitter': 'best', 'min_samples_split': 3, 'min_samples_leaf': 6, 'max_features': 5, 'max_depth': 6, 'criterion': 'entropy'}
+======================================================================
+Evaluation metrics for RandomizedSearchCV
+======================================================================
+RandomizedSearchCV's default score metric: 0.2750642673521851
+Classification report
+                  precision    recall  f1-score   support
+
+             pop     0.8468    0.9383    0.8902       324
+Dance/Electronic     0.4848    0.2133    0.2963        75
+            rock     0.4545    0.2083    0.2857        48
+           latin     1.0000    0.0000    0.0000        12
+         hip hop     0.7882    0.4820    0.5982       139
+             R&B     0.3623    0.2841    0.3185        88
+           metal     1.0000    0.0000    0.0000        12
+
+       micro avg     0.7430    0.6046    0.6667       698
+       macro avg     0.7052    0.3037    0.3413       698
+    weighted avg     0.7135    0.6046    0.6240       698
+     samples avg     0.7674    0.6542    0.6543       698
+
+Accuracy: 0.2751
+Accuracy (for pop): 0.8072
+Accuracy (for Dance/Electronic): 0.8046
+Accuracy (for rock): 0.8715
+Accuracy (for latin): 0.9692
+Accuracy (for hip hop): 0.7686
+Accuracy (for R&B): 0.7249
+Accuracy (for metal): 0.9692
+======================================================================

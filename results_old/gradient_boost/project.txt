@@ -1,0 +1,36 @@
+Best params for GradientBoostingClassifier: {'min_samples_split': 400, 'min_samples_leaf': 70, 'max_features': 15, 'max_depth': 5}
+Best params for GradientBoostingClassifier: {'min_samples_split': 200, 'min_samples_leaf': 40, 'max_features': 19, 'max_depth': 7}
+Best params for GradientBoostingClassifier: {'min_samples_split': 200, 'min_samples_leaf': 40, 'max_features': 19, 'max_depth': 7}
+Best params for GradientBoostingClassifier: {'min_samples_split': 200, 'min_samples_leaf': 50, 'max_features': 19, 'max_depth': 13}
+Best params for GradientBoostingClassifier: {'min_samples_split': 400, 'min_samples_leaf': 70, 'max_features': 19, 'max_depth': 13}
+Best params for GradientBoostingClassifier: {'min_samples_split': 600, 'min_samples_leaf': 50, 'max_features': 13, 'max_depth': 5}
+Best params for GradientBoostingClassifier: {'min_samples_split': 200, 'min_samples_leaf': 40, 'max_features': 17, 'max_depth': 5}
+======================================================================
+Evaluation metrics for MultiOutputClassifier
+======================================================================
+MultiOutputClassifier's default score metric: 0.32904884318766064
+Classification report
+                  precision    recall  f1-score   support
+
+             pop     0.8387    0.9630    0.8966       324
+Dance/Electronic     0.6957    0.4267    0.5289        75
+            rock     0.4545    0.2083    0.2857        48
+           latin     0.6667    0.1667    0.2667        12
+         hip hop     0.7417    0.6403    0.6873       139
+             R&B     0.5000    0.2386    0.3231        88
+           metal     0.6667    0.3333    0.4444        12
+
+       micro avg     0.7692    0.6734    0.7181       698
+       macro avg     0.6520    0.4253    0.4904       698
+    weighted avg     0.7290    0.6734    0.6825       698
+     samples avg     0.7918    0.7108    0.6976       698
+
+Accuracy: 0.3290
+Accuracy (for pop): 0.8149
+Accuracy (for Dance/Electronic): 0.8535
+Accuracy (for rock): 0.8715
+Accuracy (for latin): 0.9717
+Accuracy (for hip hop): 0.7918
+Accuracy (for R&B): 0.7738
+Accuracy (for metal): 0.9743
+======================================================================

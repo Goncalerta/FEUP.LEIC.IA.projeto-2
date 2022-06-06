@@ -1,0 +1,36 @@
+Best params for SVC: {'kernel': 'rbf', 'gamma': 0.1, 'C': 10}
+Best params for SVC: {'kernel': 'rbf', 'gamma': 0.1, 'C': 10}
+Best params for SVC: {'kernel': 'rbf', 'gamma': 0.1, 'C': 10}
+Best params for SVC: {'kernel': 'rbf', 'gamma': 0.1, 'C': 10}
+Best params for SVC: {'kernel': 'rbf', 'gamma': 0.1, 'C': 10}
+Best params for SVC: {'kernel': 'rbf', 'gamma': 0.1, 'C': 10}
+Best params for SVC: {'kernel': 'rbf', 'gamma': 0.1, 'C': 10}
+======================================================================
+Evaluation metrics for MultiOutputClassifier
+======================================================================
+MultiOutputClassifier's default score metric: 0.2519280205655527
+Classification report
+                  precision    recall  f1-score   support
+
+             pop     0.8329    1.0000    0.9088       324
+Dance/Electronic     1.0000    0.0267    0.0519        75
+            rock     1.0000    0.0000    0.0000        48
+           latin     1.0000    0.0000    0.0000        12
+         hip hop     1.0000    0.0072    0.0143       139
+             R&B     1.0000    0.0227    0.0444        88
+           metal     1.0000    0.0000    0.0000        12
+
+       micro avg     0.8350    0.4713    0.6026       698
+       macro avg     0.9761    0.1509    0.1456       698
+    weighted avg     0.9224    0.4713    0.4359       698
+     samples avg     0.8329    0.5253    0.6093       698
+
+Accuracy: 0.2519
+Accuracy (for pop): 0.8329
+Accuracy (for Dance/Electronic): 0.8123
+Accuracy (for rock): 0.8766
+Accuracy (for latin): 0.9692
+Accuracy (for hip hop): 0.6452
+Accuracy (for R&B): 0.7789
+Accuracy (for metal): 0.9692
+======================================================================

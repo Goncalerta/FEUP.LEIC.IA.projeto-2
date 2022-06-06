@@ -1,0 +1,30 @@
+Best params for RandomForestClassifier: {'n_estimators': 15, 'max_features': 5, 'max_depth': 10, 'criterion': 'gini'}
+======================================================================
+Evaluation metrics for RandomizedSearchCV
+======================================================================
+RandomizedSearchCV's default score metric: 0.34190231362467866
+Classification report
+                  precision    recall  f1-score   support
+
+             pop     0.8499    0.9784    0.9096       324
+Dance/Electronic     0.7000    0.2800    0.4000        75
+            rock     0.6667    0.2500    0.3636        48
+           latin     1.0000    0.0000    0.0000        12
+         hip hop     0.7900    0.5683    0.6611       139
+             R&B     0.5405    0.2273    0.3200        88
+           metal     1.0000    0.0000    0.0000        12
+
+       micro avg     0.8047    0.6433    0.7150       698
+       macro avg     0.7924    0.3291    0.3792       698
+    weighted avg     0.7754    0.6433    0.6622       698
+     samples avg     0.8231    0.6919    0.7010       698
+
+Accuracy: 0.3419
+Accuracy (for pop): 0.8380
+Accuracy (for Dance/Electronic): 0.8380
+Accuracy (for rock): 0.8920
+Accuracy (for latin): 0.9692
+Accuracy (for hip hop): 0.7918
+Accuracy (for R&B): 0.7815
+Accuracy (for metal): 0.9692
+======================================================================

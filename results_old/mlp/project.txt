@@ -1,0 +1,30 @@
+Best params for MLPClassifier: {'solver': 'sgd', 'learning_rate_init': 0.001, 'learning_rate': 'adaptive', 'hidden_layer_sizes': (100,), 'alpha': 0.0001, 'activation': 'relu'}
+======================================================================
+Evaluation metrics for RandomizedSearchCV
+======================================================================
+RandomizedSearchCV's default score metric: 0.12983370066119013
+Classification report
+                  precision    recall  f1-score   support
+
+             pop     0.8329    1.0000    0.9088       324
+Dance/Electronic     1.0000    0.0000    0.0000        75
+            rock     1.0000    0.0000    0.0000        48
+           latin     1.0000    0.0000    0.0000        12
+         hip hop     1.0000    0.0000    0.0000       139
+             R&B     1.0000    0.0000    0.0000        88
+           metal     1.0000    0.0000    0.0000        12
+
+       micro avg     0.8329    0.4642    0.5961       698
+       macro avg     0.9761    0.1429    0.1298       698
+    weighted avg     0.9224    0.4642    0.4219       698
+     samples avg     0.8329    0.5197    0.6054       698
+
+Accuracy: 0.2416
+Accuracy (for pop): 0.8329
+Accuracy (for Dance/Electronic): 0.8072
+Accuracy (for rock): 0.8766
+Accuracy (for latin): 0.9692
+Accuracy (for hip hop): 0.6427
+Accuracy (for R&B): 0.7738
+Accuracy (for metal): 0.9692
+======================================================================
