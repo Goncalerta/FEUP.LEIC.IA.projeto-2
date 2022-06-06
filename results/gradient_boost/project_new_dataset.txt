@@ -1,0 +1,36 @@
+Best params for GradientBoostingClassifier: {'min_samples_split': 400, 'min_samples_leaf': 70, 'max_features': 15, 'max_depth': 5}
+Best params for GradientBoostingClassifier: {'min_samples_split': 800, 'min_samples_leaf': 60, 'max_features': 19, 'max_depth': 7}
+Best params for GradientBoostingClassifier: {'min_samples_split': 200, 'min_samples_leaf': 40, 'max_features': 17, 'max_depth': 5}
+Best params for GradientBoostingClassifier: {'min_samples_split': 200, 'min_samples_leaf': 40, 'max_features': 17, 'max_depth': 5}
+Best params for GradientBoostingClassifier: {'min_samples_split': 600, 'min_samples_leaf': 50, 'max_features': 13, 'max_depth': 5}
+Best params for GradientBoostingClassifier: {'min_samples_split': 1000, 'min_samples_leaf': 60, 'max_features': 19, 'max_depth': 15}
+Best params for GradientBoostingClassifier: {'min_samples_split': 200, 'min_samples_leaf': 40, 'max_features': 19, 'max_depth': 7}
+======================================================================
+Evaluation metrics for MultiOutputClassifier
+======================================================================
+MultiOutputClassifier's default score metric: 0.5667655786350149
+Classification report
+              precision    recall  f1-score   support
+
+       metal     0.8636    0.6909    0.7677        55
+     ambient     0.6429    0.3462    0.4500        26
+         edm     0.7941    0.5870    0.6750        46
+        punk     0.7333    0.4231    0.5366        26
+         pop     0.7647    0.6500    0.7027        60
+   classical     0.7419    0.7931    0.7667        29
+        rock     0.5606    0.5441    0.5522        68
+
+   micro avg     0.7216    0.5935    0.6513       310
+   macro avg     0.7287    0.5763    0.6358       310
+weighted avg     0.7269    0.5935    0.6480       310
+ samples avg     0.7967    0.6261    0.5767       310
+
+Accuracy: 0.5668
+Accuracy (for metal): 0.9318
+Accuracy (for ambient): 0.9347
+Accuracy (for edm): 0.9228
+Accuracy (for punk): 0.9436
+Accuracy (for pop): 0.9021
+Accuracy (for classical): 0.9585
+Accuracy (for rock): 0.8220
+======================================================================

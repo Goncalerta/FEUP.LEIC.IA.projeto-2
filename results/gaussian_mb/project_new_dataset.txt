@@ -1,0 +1,36 @@
+Best params for GaussianNB: {'var_smoothing': 2.848035868435799e-08}
+Best params for GaussianNB: {'var_smoothing': 1.0}
+Best params for GaussianNB: {'var_smoothing': 2.848035868435799e-08}
+Best params for GaussianNB: {'var_smoothing': 2.848035868435799e-08}
+Best params for GaussianNB: {'var_smoothing': 2.848035868435799e-08}
+Best params for GaussianNB: {'var_smoothing': 1.0}
+Best params for GaussianNB: {'var_smoothing': 2.848035868435799e-08}
+======================================================================
+Evaluation metrics for MultiOutputClassifier
+======================================================================
+MultiOutputClassifier's default score metric: 0.0830860534124629
+Classification report
+              precision    recall  f1-score   support
+
+       metal     1.0000    0.0000    0.0000        55
+     ambient     1.0000    0.0385    0.0741        26
+         edm     1.0000    0.0000    0.0000        46
+        punk     1.0000    0.0385    0.0741        26
+         pop     1.0000    0.0000    0.0000        60
+   classical     0.0000    0.0000    0.0000        29
+        rock     1.0000    0.0000    0.0000        68
+
+   micro avg     0.6667    0.0065    0.0128       310
+   macro avg     0.8571    0.0110    0.0212       310
+weighted avg     0.9065    0.0065    0.0124       310
+ samples avg     0.9985    0.0861    0.0851       310
+
+Accuracy: 0.0831
+Accuracy (for metal): 0.8368
+Accuracy (for ambient): 0.9258
+Accuracy (for edm): 0.8635
+Accuracy (for punk): 0.9258
+Accuracy (for pop): 0.8220
+Accuracy (for classical): 0.9110
+Accuracy (for rock): 0.7982
+======================================================================
