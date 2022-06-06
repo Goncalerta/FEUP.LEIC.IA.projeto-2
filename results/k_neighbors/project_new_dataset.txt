@@ -1,0 +1,30 @@
+Best params for KNeighborsClassifier: {'weights': 'uniform', 'n_neighbors': 1}
+======================================================================
+Evaluation metrics for RandomizedSearchCV
+======================================================================
+RandomizedSearchCV's default score metric: 0.19584569732937684
+Classification report
+              precision    recall  f1-score   support
+
+       metal     0.2115    0.2000    0.2056        55
+     ambient     0.1852    0.1923    0.1887        26
+         edm     0.1395    0.1304    0.1348        46
+        punk     0.3200    0.3077    0.3137        26
+         pop     0.1905    0.1333    0.1569        60
+   classical     0.2500    0.2069    0.2264        29
+        rock     0.2065    0.2794    0.2375        68
+
+   micro avg     0.2066    0.2032    0.2049       310
+   macro avg     0.2148    0.2072    0.2091       310
+weighted avg     0.2062    0.2032    0.2023       310
+ samples avg     0.2819    0.2671    0.1958       310
+
+Accuracy: 0.1958
+Accuracy (for metal): 0.7478
+Accuracy (for ambient): 0.8724
+Accuracy (for edm): 0.7715
+Accuracy (for punk): 0.8961
+Accuracy (for pop): 0.7448
+Accuracy (for classical): 0.8783
+Accuracy (for rock): 0.6380
+======================================================================
